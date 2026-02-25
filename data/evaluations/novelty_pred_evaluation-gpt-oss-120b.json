@@ -1,0 +1,18 @@
+{
+    "f1_scores": {
+        "1": 0.0,
+        "2": 0.030303030303030304,
+        "3": 0.3006535947712418,
+        "4": 0.4070175438596491,
+        "5": 0.0,
+        "macro": 0.14759483378678423
+    },
+    "mean_absolute_error": 0.9638989169675091,
+    "mean_alignment": 0.6436823104693141,
+    "mean_known_aspects_recall": 0.8811672683513839,
+    "mean_novelty_aspects_recall": 0.7785800240673887,
+    "mean_additional_known_aspects_ratio": 0.7897111913357401,
+    "mean_additional_novelty_aspects_ratio": 0.9235860409145608,
+    "mean_known_aspects_hallucination_rate": 0.009326113116726834,
+    "mean_novelty_aspects_hallucination_rate": 0.004813477737665463
+}

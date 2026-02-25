@@ -1,0 +1,7 @@
+[
+    "1: The idea is not novel. All aspects already exist in prior work.",
+    "2: The idea is marginally novel. It represents only a minor variation of existing work.",
+    "3: The idea somewhat novel. Aspects already exist in prior work. However, it might combine known approaches in new ways, apply them to new contexts, or propose incremental updates.",
+    "4: The idea is novel. It introduces new aspects not present in existing work.",
+    "5: The idea is highly innovative and novel. It is not present in existing work and potentially encourages new thinking or opens up new research directions."
+]
