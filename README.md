@@ -4,7 +4,7 @@
 
 > It presents the **R**esearch **I**dea **No**velty Judgment **Bench**mark (*RINoBench* 🦏), a new evaluation benchmark including **a dataset of 1,381 research ideas derived from and judged by human experts as well as nine automated evaluation metrics** designed to assess both rubric-based novelty scores and textual justifications of novelty judgments.
 
-📄 Paper: [tbp](tbp)
+📄 Paper:  [Is this Idea Novel? An Automated Benchmark for Judgment of Research Ideas (LREC 2026)](https://arxiv.org/abs/2603.10303)
 
 🤗 Data: [https://huggingface.co/datasets/TimSchopf/RINoBench](https://huggingface.co/datasets/TimSchopf/RINoBench)
 
