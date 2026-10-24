@@ -55,17 +55,24 @@ Each train and test split contains research ideas, gold novelty scores, gold tex
 When citing our work in academic papers and theses, please use this BibTeX entry:
 
 ```plaintext
-@inproceedings{schopf-etal-2026-is,
-  title = {Is This Idea Novel? An Automated Benchmark for Judgment of Research Ideas},
-  author = {Schopf, Tim and Färber, Michael},
-  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
-  month = {May},
-  year = {2026},
-  pages = {4716--4727},
-  address = {Palma, Mallorca, Spain},
-  publisher = {European Language Resources Association (ELRA)},
-  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
-  doi = {10.63317/4c3gy3f7epnj},
-  abstract = {Judging the novelty of research ideas is crucial for advancing science, enabling the identification of unexplored directions, and ensuring contributions meaningfully extend existing knowledge rather than reiterate minor variations. However, given the exponential growth of scientific literature, manually judging the novelty of research ideas through literature reviews is labor-intensive, subjective, and infeasible at scale. Therefore, recent efforts have proposed automated approaches for research idea novelty judgment. Yet, evaluation of these approaches remains largely inconsistent and is typically based on non-standardized human evaluations, hindering large-scale, comparable evaluations. To address this, we introduce RINoBench, the first comprehensive benchmark for large-scale evaluation of research idea novelty judgments. It comprises 1,381 research ideas derived from and judged by human experts as well as nine automated evaluation metrics designed to assess both rubric-based novelty scores and textual justifications of novelty judgments. Using this benchmark, we evaluate several state-of-the-art large language models (LLMs) on their ability to judge the novelty of research ideas. Our findings reveal that while LLM-generated reasoning closely mirrors human rationales, this alignment does not reliably translate into accurate novelty judgments, which diverge significantly from human gold standard judgments—even among leading reasoning-capable models. Data and code available at: https://github.com/TimSchopf/RINoBench}
+@inproceedings{schopf-farber-2026-idea,
+    title = "Is This Idea Novel? An Automated Benchmark for Judgment of Research Ideas",
+    author = {Schopf, Tim  and
+      F{\"a}rber, Michael},
+    editor = "Piperidis, Stelios  and
+      Bel, N{\'u}ria  and
+      van den Heuvel, Henk  and
+      Ide, Nancy  and
+      Krek, Simon  and
+      Toral, Antonio",
+    booktitle = "Proceedings of the Fifteenth Language Resources and Evaluation Conference",
+    month = may,
+    year = "2026",
+    address = "Palma de Mallorca, Spain",
+    publisher = "ELRA Language Resource Association",
+    url = "https://aclanthology.org/2026.lrec-1.370/",
+    doi = "10.63317/4c3gy3f7epnj",
+    pages = "4716--4727",
+    abstract = "Judging the novelty of research ideas is crucial for advancing science, enabling the identification of unexplored directions, and ensuring contributions meaningfully extend existing knowledge rather than reiterate minor variations. However, given the exponential growth of scientific literature, manually judging the novelty of research ideas through literature reviews is labor-intensive, subjective, and infeasible at scale. Therefore, recent efforts have proposed automated approaches for research idea novelty judgment. Yet, evaluation of these approaches remains largely inconsistent and is typically based on non-standardized human evaluations, hindering large-scale, comparable evaluations. To address this, we introduce RINoBench, the first comprehensive benchmark for large-scale evaluation of research idea novelty judgments. It comprises 1,381 research ideas derived from and judged by human experts as well as nine automated evaluation metrics designed to assess both rubric-based novelty scores and textual justifications of novelty judgments. Using this benchmark, we evaluate several state-of-the-art large language models (LLMs) on their ability to judge the novelty of research ideas. Our findings reveal that while LLM-generated reasoning closely mirrors human rationales, this alignment does not reliably translate into accurate novelty judgments, which diverge significantly from human gold standard judgments{---}even among leading reasoning-capable models. Data and code available at: \url{https://github.com/TimSchopf/RINoBench}"
 }
 ``` 
